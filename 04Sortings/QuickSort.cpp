@@ -18,7 +18,7 @@ int partition(vector<int> &a, int low, int high){
         }
     }
     swap(a[low], a[j]);
-    return j; 
+    return j;                           
 }
 
 void Quick_sort(vector<int> &a, int low, int high){

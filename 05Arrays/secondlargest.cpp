@@ -15,6 +15,7 @@ int findsecond(vector<int> v,int n){
     if(prevMax == INT_MIN) return -1;
     return prevMax;
 }
+ 
 int main(){
     int n,num;
     cout << "enter the length of array";

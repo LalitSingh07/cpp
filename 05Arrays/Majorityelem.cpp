@@ -16,9 +16,25 @@ public:
         cout << ele << endl;
     }
 };
+// second solution
+class Solution2{
+public:
+    void major(vector<int> vv){
+        unordered_map<int,int> mp;
+        for(int i =0;i<vv.size();i++){
+            mp[vv[i]]++; // time complexity O(n)
+        } // time complexity O(n)
+        for(auto x:mp){
+            if(x.second > vv.size()/2){
+                cout << x.first << endl;
+                break;
+            } // time complexity O(n)
+        }
+    }
+};
 
 int main(){
-    vector<int> vv = {1,2,23,3,3,9,9,9,3,3,67,7};
+    vector<int> vv = {1,2,23,3,3,9,9,9,3,3};
     Solution obj;
     obj.major(vv);
     return 0;

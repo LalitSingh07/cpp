@@ -12,13 +12,13 @@ public:
                 mid++;
                 low++;
             }
+
             if(v[mid]== 2){
                 swap(v[high],v[mid]);
-              
                 high--;
             }
         }
-
+             
         for(auto it: v){
             cout<<it << endl;
         }

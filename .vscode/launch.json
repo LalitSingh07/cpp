@@ -2,14 +2,21 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "type": "java",
+      "name": "Tester",
+      "request": "launch",
+      "mainClass": "Tester",
+      "projectName": "cpp_22b97f50"
+    },
+    {
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
-      "cwd": "/media/lalit-singh/workspace/workspace/CPP/01MathsBasics",
-      "program": "/media/lalit-singh/workspace/workspace/CPP/01MathsBasics/build/Debug/outDebug",
+      "externalConsole": true,
+      "cwd": "d:/workspace/cpp/05Arrays",
+      "program": "d:/workspace/cpp/05Arrays/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

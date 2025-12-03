@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/workspace/cpp/01MathsBasics",
-      "program": "d:/workspace/cpp/01MathsBasics/build/Debug/outDebug",
+      "cwd": "d:/workspace/cpp/Practice",
+      "program": "d:/workspace/cpp/Practice/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
